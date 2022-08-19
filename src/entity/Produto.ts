@@ -1,5 +1,5 @@
-import { Entity, PrimaryGeneratedColumn, Column, OneToOne, JoinColumn, OneToMany } from "typeorm"
-import Carrinho from "./Carrinho"
+import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
+
 
 @Entity()
 export default class Produto {
