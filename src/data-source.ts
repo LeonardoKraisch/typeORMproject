@@ -9,7 +9,7 @@ const dataSource = new DataSource({
     host: "localhost",
     port: 5432,
     username: "postgres",
-    password: "leoa2009",
+    password: "******",
     database: "postgres",
     entities: [Cliente, Produto, Venda, Carrinho],
     logging: false,
