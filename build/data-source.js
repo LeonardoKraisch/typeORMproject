@@ -10,7 +10,7 @@ var dataSource = new typeorm_1.DataSource({
     host: "localhost",
     port: 5432,
     username: "postgres",
-    password: "leoa2009",
+    password: "*******",
     database: "postgres",
     entities: [Cliente_1.default, Produto_1.default, Venda_1.default, Carrinho_1.default],
     logging: false,
